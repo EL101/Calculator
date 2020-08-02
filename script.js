@@ -1,4 +1,30 @@
 let currentValue = 0;
+let operator = null; // this is what operation you will be doing like +,-,x,/ 
+let operand1=0;
+let operand2=0;
+
+function yoPlus() {
+    operand1=currentValue;
+    operator="+";
+    currentValue = 0;
+}
+function yoEqual() {  // make this all working... 
+    // make it work..
+    // hint: your operand2 is 0 when you hit equal initially, what do you need to do??
+    if (operator === '+') {
+        currentValue = operand1 + operand2;
+    } else if (operator === '-') {
+        // hw
+    } else if (operator === '*') {
+        // hw 
+    } else if (operator === '/') {
+        // hw
+    } else {
+        // hw harder one... what do you do for all other cases???????????
+    }
+    document.getElementById("div2").innerHTML = currentValue;
+    document.getElementById("AC").innerHTML = "C";   
+}
 function yo() {
     currentValue = currentValue*10+1;
     document.getElementById("div2").innerHTML = currentValue;
@@ -65,3 +91,4 @@ function yoPercent() {
 function changeAC() {
     let ac = document.getElementById("AC").innerHTML;
 }
+
