@@ -12,6 +12,13 @@ h1 {
     font-family: Helvetica;
     color:lawngreen;
     font-size: 30px;
+    width: 500px;
+    margin: auto;
+}
+#zero {
+    width: 200px;
+    text-align: left;
+    padding: 0 0 0 30px;
 }
 div {
     border: nothing;
@@ -24,4 +31,10 @@ button {
     font-size: 50px;
     background-color: deepskyblue;
     color: white;
+}
+.buttonColor {
+    background-color: rgb(55, 10, 161);
+}
+.equal {
+    background-color: teal;
 }
